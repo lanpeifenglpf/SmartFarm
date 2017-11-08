@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.scujcc.smartfarm.app.MainActivity">
+
+
+    <FrameLayout
+        android:id="@+id/fragmentLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <RadioGroup
+        android:id="@+id/rg_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/rb_home"
+            style="@style/MainButtonStyle"
+            android:drawableTop="@drawable/home_button_selector"
+            android:text="首页"/>
+        <RadioButton
+            android:id="@+id/rb_detail"
+            style="@style/MainButtonStyle"
+            android:drawableTop="@drawable/detail_button_selector"
+            android:text="详情"/>
+        <RadioButton
+            android:id="@+id/rb_control"
+            style="@style/MainButtonStyle"
+            android:drawableTop="@drawable/control_button_selector"
+            android:text="控制"/>
+        <RadioButton
+            android:id="@+id/rb_user"
+            style="@style/MainButtonStyle"
+            android:drawableTop="@drawable/user_button_selector"
+            android:text="个人"/>
+
+    </RadioGroup>
+
+</LinearLayout>
