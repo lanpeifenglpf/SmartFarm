@@ -1,9 +1,11 @@
-package com.scujcc.smartfarm;
+package com.scujcc.smartfarm.app;
 
-import android.support.v7.app.AppCompatActivity;
+import android.app.Activity;
 import android.os.Bundle;
 
-public class WelcomeActivity extends AppCompatActivity {
+import com.scujcc.smartfarm.R;
+
+public class WelcomeActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
